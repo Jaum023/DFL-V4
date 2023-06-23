@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>DFL Carvalho</title>
+    <link  rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  crossorigin="anonymous">
+    <style>
+        /* Estilos para destacar as divs */
+        .section {
+            padding: 20px;
+            background-color: #FDD282;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 0.85;
+            border: 0;
+        }
+        .escritosection{
+            opacity: 1;
+            color: #000000;
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    
+        }
+        .titulosection{
+            font-size: 45px ;
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .fundo{
+            background-color: #58692e;
+            margin:0 auto;
+        }
+        .header{
+            background-color: #fdd282;
+            padding: 10px;
+            margin: 0px;
+            align-items:center;
+            justify-content: space-between;     
+        }   
+        .link-button{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #BFBF5E;
+            padding: 10px 20px;
+            margin: 10px;
+            color: black;
+            font-size: 20px;
+            position:relative;
+            left:45%;
+            transition: 0.3s, ;
+            border-radius: 4px;
+            border: solid #a0aa60 1.5px;
+        }
+        .link-button:hover{
+            background-color: #ffffff;
+            color:black;
+            transition: 0.3s,  0.3s;
+            
+            
+        }
+        .link-button:visited{
+            color:#000000;
+        }
+        .image-logo{
+            width: 125px;
+            height: 100px;
+            margin-left: -50px;
+            margin-top: -10px;
+            
+        }
+        .image-header{
+            margin-top: -30px;
+            width: 100%;
+            height: 100%;
+        }
+        .fundo-reportagem{
+            background-color: gold;
+            padding:30px;
+            width: 50%;
+            height: 45%;
+
+        }
+        .organicos{
+            background-image: url(Imagens/organicos.jpg);
+            width: 100%;
+            height: 50%;
+            padding: 30px;
+        }
+        .organicos-escrito{            
+            background-color: #FDD282;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif black;
+            font-size: large;
+            color: #000000;
+            position: relative;
+            right: 20%;
+            width: 50%;
+            height: 50%;
+            padding:20px;
+            border: 9px solid #D56B1D;
+            border-radius: 5px;
+            
+        }
+        .contato{ 
+            display: flex;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: black;
+            padding:50px;
+            background-color: #A0AA60;
+            
+        }
+        .contornoimagem{
+            border: 2px solid #000000;
+        }
+        .contato img{
+            margin-right: 5px;
+        }
+        .contato-info{
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+            border: solid #58692e
+             
+        } 
+        .moldura{
+           border: 2px solid black;
+           display:inline-block;
+           padding:10px;
+           width: fit-content;
+           position: relative;
+
+        }
+        
+    </style>
+</head>
+<body class="fundo">
+    <script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"  crossorigin="anonymous"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"  crossorigin="anonymous"></script>
+    <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"  crossorigin="anonymous"></script>
+    <!-- Array de links para ancorar as divs -->
+    <div class="header">
+    <nav>
+        <ul>
+
+            <img src="Imagens/logo.jpg" class="image-logo">
+            <a href="#o-que-fazemos" class="link-button">O que fazemos</a><a href="#sobre-nos" class="link-button">Sobre nós</a><a href="#quem-somos" class="link-button">Quem somos</a>
+        </ul>
+    </nav>
+    </div>
+    <img src="Imagens/header-image.jpg"class="image-header">
+    <!-- Div "O que fazemos" -->
+    <div id="o-que-fazemos" class="section">
+        <p class="titulosection">O que fazemos</p>
+        <p class="escritosection">  Trabalhamos com entregas de frutas, legumes e verduras para restaurantes e vendas presenciais para o público geral, sempre prezando o bom atendimendo ao cliente, excelência na qualidade dos nossos produtos e rapidez no fornecimento das mercadorias.
+            Nossos produtos são produzidos em nossas propriedades, contando com verduras cultivadas em hidroponia, o que garante o melhor aproveitamento dos recursos hídricos e mantêm a qualidade das nossas mercadorias mais estável durante todo o ano.
+            </p>
+    </div>
+    <center>
+    <div class="organicos">
+        <div class="organicos-escrito">
+        <h2>Produtos frescos!</h2>
+        <h3>Fornecemos produtos frescos com qualidade e preço justo em mercadorias cultivadas com tecnologias atuais garantindo maior nível de excelência!</h3>
+        </div>
+    </div>
+    </center>
+    <!-- Div "Sobre nós" -->
+    <div id="sobre-nos" class="section">
+        <p class="titulosection">Sobre nós</p>
+        <p class="escritosection">  Somos uma empresa familiar especializada em fornecer produtos de qualidade tanto para restaurantes quanto para o público geral. Nossa loja física se localiza no Ceasa de São José Do Rio Preto e já opera há mais de 50 anos, sempre garantindo excelência e preços justos aos nossos clientes.
+            Atualmente fornecemos produtos para restaurantes renomados na cidade, além de contarmos com uma clientela fiel dos nossos serviços no Ceasa. Nossos produtos são produzidos em nossas instalações próprias ou provenientes do Ceagesp de São Paulo, o que garante uma variedade e qualidade de alto padrão para a nossa empresa.
+            </p>
+    </div>
+        <!-- Div "Quem somos" -->
+        <div id="quem-somos" class="section">
+            <p class="titulosection">Quem somos</p>
+            <p class="escritosection">Somos uma empresa familiar que atua no mercado de distribuição de alimentos há diversos anos, a empresa já corre na família há três gerações sendo fundada há mais de 50 por Juraci Carvalho e atualmente é administrada por Valdir Carvalho e sua família.</p>
+            <center>
+        <div class="moldura">
+            <p class="escritosection">Conheça nossa equipe!</p>
+            <img src="imagens/familiaCarvalho.jpg" alt="" width="30%" height="30%" >
+            </center>
+        </div>
+            <center>
+            <p><H2>Assista essa reportagem a qual demos devido ao nosso destaque na produção de hidropônicos!</H2></p>
+            <div class="fundo-reportagem">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jEq2vHIK79Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            </center>
+            <p>
+        </div>
+        <center>
+        <div id="Contato" class="contato">
+            <img src="Imagens/joaoGabrielCarvalho.jpg" alt="" width="10%" height="10%" class="contornoimagem">
+        <div class="contato-info">
+            <span>João Gabriel Carvalho (+55)17 99747-7170</span>
+        </div>
+            <img src="Imagens/renatoCarvalho.jpg" alt="" width="10%" height="10%" class="contornoimagem">
+        <div class="contato-info">
+                <span> Renato Carvalho: (+55) 17 99725-6450 </span>
+        </div>
+            <img src="Imagens/guilhermeCarvalho.jpg" alt="" width="10%" height="10%" class="contornoimagem">
+        <div class="contato-info">
+                <span> Guilherme Carvalho: (+55) 17 99675-1701 </span>
+        </div>
+        </div>
+        </center>
+    </p>
+</body>
+</html>
+    
